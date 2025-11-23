@@ -4,7 +4,6 @@ Archives collected data with proper versioning and metadata
 """
 
 import json
-import os
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, Any, Optional

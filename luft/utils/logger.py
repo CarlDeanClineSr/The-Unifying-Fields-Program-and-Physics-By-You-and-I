@@ -5,7 +5,6 @@ Logging configuration for LUFT
 import logging
 import sys
 from pathlib import Path
-from datetime import datetime
 
 
 def setup_logging(log_level: str = "INFO", log_file: str = None):

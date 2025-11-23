@@ -4,7 +4,6 @@ Collects real-time solar wind data from public APIs
 """
 
 import requests
-import json
 from datetime import datetime
 from typing import Dict, Optional
 import logging

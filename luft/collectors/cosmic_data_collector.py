@@ -4,9 +4,8 @@ Collects cosmic ray and particle data from public sources
 """
 
 import requests
-import json
 from datetime import datetime
-from typing import Dict, Optional, List
+from typing import Dict, Optional
 import logging
 
 logger = logging.getLogger(__name__)
