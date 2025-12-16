@@ -1,0 +1,17 @@
+# LUFT - The Unifying Fields Program
+# Python Dependencies
+
+# Core dependencies
+requests>=2.31.0
+pyyaml>=6.0
+
+# Data processing (optional, for future enhancements)
+# numpy>=1.24.0
+# pandas>=2.0.0
+# scipy>=1.10.0
+
+# Development dependencies (optional)
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
+# black>=23.0.0
+# flake8>=6.0.0

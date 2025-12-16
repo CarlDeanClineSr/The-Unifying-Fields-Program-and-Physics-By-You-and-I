@@ -1,0 +1,27 @@
+# LUFT Configuration File
+
+# Data Collectors Configuration
+collectors:
+  solar_wind:
+    enabled: true
+    interval: 300  # Collection interval in seconds (5 minutes)
+    
+  cosmic_data:
+    enabled: true
+    interval: 300  # Collection interval in seconds (5 minutes)
+
+# Storage Configuration
+storage:
+  archive_path: data/archive
+  cache_path: data/cache
+
+# Logging Configuration
+logging:
+  level: INFO  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  file: logs/luft.log
+
+# Optional: Advanced Settings
+advanced:
+  retry_attempts: 3
+  retry_delay: 60  # seconds
+  timeout: 30  # request timeout in seconds
